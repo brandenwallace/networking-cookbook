@@ -8,6 +8,6 @@ def get_remote_machine_info(remote_host = 'www.python.org'):
         print(remote_host + ": " + err_msg)
 
 if __name__=='__main__':
-    input_prompt = "Enter the url of a remote machine (defaults to 'www.python.org'): "
-    site_url = input(input_prompt)
+    site_url = input("Enter the url of a remote machine " +
+    "(defaults to 'www.python.org'): ")
     get_remote_machine_info(site_url)
